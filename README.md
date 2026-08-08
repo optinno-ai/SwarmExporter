@@ -35,7 +35,7 @@ python3 -m playwright install chromium
 The standard installation method uses GitHub. The cloned source directory is not retained, and the `swarm-exporter` command remains available after installation.
 
 ```sh
-python3 -m pip install "git+https://github.com/optinno-ai/Swarm-Exporter.git"
+python3 -m pip install "git+https://github.com/optinno-ai/SwarmExporter.git"
 ```
 
 To use a virtual environment:
@@ -43,14 +43,14 @@ To use a virtual environment:
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install "git+https://github.com/optinno-ai/Swarm-Exporter.git"
+python3 -m pip install "git+https://github.com/optinno-ai/SwarmExporter.git"
 ```
 
 Developers who intend to edit the source can use an editable installation and keep the cloned directory:
 
 ```sh
-git clone https://github.com/optinno-ai/Swarm-Exporter.git
-cd Swarm-Exporter
+git clone https://github.com/optinno-ai/SwarmExporter.git
+cd SwarmExporter
 python3 -m pip install -e .
 ```
 
