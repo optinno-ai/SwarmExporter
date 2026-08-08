@@ -27,7 +27,7 @@ Instead of waiting for a Foursquare data download request, it automatically dete
 If no supported browser is found, you can install Playwright's Chromium:
 
 ```sh
-python3 -m playwright install chromium
+python -m playwright install chromium
 ```
 
 ## Installation
@@ -35,15 +35,15 @@ python3 -m playwright install chromium
 The standard installation method uses GitHub. The cloned source directory is not retained, and the `swarm-exporter` command remains available after installation.
 
 ```sh
-python3 -m pip install "git+https://github.com/optinno-ai/SwarmExporter.git"
+python -m pip install "git+https://github.com/optinno-ai/SwarmExporter.git"
 ```
 
 To use a virtual environment:
 
 ```sh
-python3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
-python3 -m pip install "git+https://github.com/optinno-ai/SwarmExporter.git"
+python -m pip install "git+https://github.com/optinno-ai/SwarmExporter.git"
 ```
 
 Developers who intend to edit the source can use an editable installation and keep the cloned directory:
